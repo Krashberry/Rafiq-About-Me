@@ -51,29 +51,35 @@ body {
   margin-top: -80px;
 }
 .img#avatar {
+  position: relative;
   border: 1px solid black;
   width: 500px;
   height: 600px;
   z-index: 1;
 }
 .img#avshadow {
+  position: relative;
   width: 500px;
   height: 600px;
-  top: 20px;
-  right: 10px;
+  top: 40px;
+  left: 550px;
   background-color: #2b8739;
 }
 .img#txt {
+  position: relative;
   border: 1px solid black;
   width: 300px;
   height: 400px;
   background-color: white;
   color: black;
-  z-index: 1;
+  z-index: 2;
 }
 .img#txtshadow {
+  position: relative;
   width: 300px;
   height: 400px;
+  top: 50px;
+  left: 350px;
   background-color: #2b8739;
 }
 
@@ -88,40 +94,59 @@ body {
   flex-direction: row;
 }
 .box#box1 {
+  position: relative;
   border: 1px solid black;
   width: 550px;
   height: 200px;
   color: black;
   background-color: white;
   color: black;
+  z-index: 3;
 }
 .box#box1shadow {
+  position: relative;
   width: 550px;
   height: 200px;
+  bottom: 100px;
+  left: 50px;
   background-color: #2b8739;
 }
 .box#box2 {
+  align-self: center;
+  position: relative;
   border: 1px solid black;
   width: 550px;
   height: 200px;
   color: black;
   background-color: white;
+  z-index: 2;
 }
 .box#box2shadow {
+  align-self: center;
+  position: relative;
   width: 550px;
   height: 200px;
+  bottom: 100px;
+  left: 50px;
   background-color: #2b8739;
 }
 .box#box3 {
+  align-self: flex-end;
+  position: relative;
   border: 1px solid black;
   width: 550px;
   height: 200px;
   color: black;
   background-color: white;
+  z-index: 1;
 }
 .box#box3shadow {
+  align-self: flex-end;
+  position: relative;
   width: 550px;
   height: 200px;
+  bottom: 100px;
+  left: 50px;
   background-color: #2b8739;
 }
 
