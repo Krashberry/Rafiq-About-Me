@@ -1,8 +1,8 @@
 html,
 body {
   scroll-behavior: smooth;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin: 0;
   padding: 0;
   background: black;
@@ -42,72 +42,98 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   width: 100vw;
 }
+
 #pg1 {
-  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
   height: 92.5vh;
   padding-top: 80px;
-  padding-bottom: -80px;
-  .img {
-    display: inline-block;
-  }
-  .img#avatar {
-    width: 300px;
-    height: 400px;
-  }
-  .img#avshadow {
-    width: 300px;
-    height: 400px;
-    top: 20px;
-    left: 10px;
-    background-color: green;
-  }
-  .img#txt {
-    width: 300px;
-    height: 400px;
-    background-color: white;
-  }
-  .img#txtshadow {
-    width: 300px;
-    height: 400px;
-    background-color: green;
-  }
+  margin-top: -80px;
+}
+.img {
+}
+.img#avatar {
+  border: 1px solid black;
+  width: 500px;
+  height: 600px;
+  z-index: 1;
+}
+.img#avshadow {
+  width: 500px;
+  height: 600px;
+  top: 20px;
+  right: 10px;
+  background-color: #2b8739;
+}
+.img#txt {
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  z-index: 1;
+}
+.img#txtshadow {
+  width: 300px;
+  height: 400px;
+  background-color: #2b8739;
 }
 
 #pg2 {
-  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
   height: 92.5vh;
-  padding-top: 80px;
-  padding-bottom: -80px;
 }
 .box {
-  width: 300px;
-  height: 400px;
-  #box1 {
-  }
-  #box1shadow {
-  }
-  #box2 {
-  }
-  #box2shadow {
-  }
-  #box3 {
-  }
-  #box3shadow {
-  }
+  display: flex;
+  flex-direction: row;
+}
+.box#box1 {
+  border: 1px solid black;
+  width: 550px;
+  height: 200px;
+  color: black;
+  background-color: white;
+  color: black;
+}
+.box#box1shadow {
+  width: 550px;
+  height: 200px;
+  background-color: green;
+}
+.box#box2 {
+  border: 1px solid black;
+  width: 550px;
+  height: 200px;
+  color: black;
+  background-color: white;
+}
+.box#box2shadow {
+  width: 550px;
+  height: 200px;
+  background-color: green;
+}
+.box#box3 {
+  border: 1px solid black;
+  width: 550px;
+  height: 200px;
+  color: black;
+  background-color: white;
+}
+.box#box3shadow {
+  width: 550px;
+  height: 200px;
+  background-color: green;
 }
 
 #pg3 {
-  border: 2px solid white;
   height: 92.5vh;
-  padding-top: 80px;
-  padding-bottom: -80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   .img#mchpch {
     display: flex;
     width: 300px;
@@ -121,10 +147,7 @@ body {
 }
 
 #pg4 {
-  border: 2px solid white;
   height: 92.5vh;
-  padding-top: 80px;
-  padding-bottom: -80px;
   h2 {
     display: flex;
     justify-content: center;
