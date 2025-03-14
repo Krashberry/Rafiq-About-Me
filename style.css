@@ -1,8 +1,6 @@
 html,
 body {
   scroll-behavior: smooth;
-  /* display: flex;
-  flex-direction: column; */
   margin: 0;
   padding: 0;
   background: black;
@@ -52,8 +50,6 @@ body {
   padding-top: 80px;
   margin-top: -80px;
 }
-.img {
-}
 .img#avatar {
   border: 1px solid black;
   width: 500px;
@@ -102,7 +98,7 @@ body {
 .box#box1shadow {
   width: 550px;
   height: 200px;
-  background-color: green;
+  background-color: #2b8739;
 }
 .box#box2 {
   border: 1px solid black;
@@ -114,7 +110,7 @@ body {
 .box#box2shadow {
   width: 550px;
   height: 200px;
-  background-color: green;
+  background-color: #2b8739;
 }
 .box#box3 {
   border: 1px solid black;
@@ -126,7 +122,7 @@ body {
 .box#box3shadow {
   width: 550px;
   height: 200px;
-  background-color: green;
+  background-color: #2b8739;
 }
 
 #pg3 {
@@ -134,15 +130,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  .polaroid {
+    border: 1rem solid white;
+    width: 330px;
+    height: 330px;
+    padding-bottom: 50px;
+    background-color: white;
+  }
   .img#mchpch {
-    display: flex;
     width: 300px;
     height: 300px;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: white;
   }
   .img#desert {
-    display: flex;
     width: 300px;
     height: 300px;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: white;
   }
 }
 
@@ -164,16 +171,17 @@ body {
   #description {
     display: flex;
     align-items: center;
-    width: 500px;
+    width: 600px;
+    color: #2b8739;
   }
   #description {
-    height: 300px;
+    padding-bottom: 300px;
   }
   input#submitbtn {
+    display: flex;
+    justify-self: center;
     background-color: white;
     color: black;
+    padding: 15px;
   }
-}
-
-.img {
 }
