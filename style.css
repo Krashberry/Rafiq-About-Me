@@ -18,6 +18,7 @@ body {
   overflow: hidden;
   background: black;
   color: white;
+  margin-bottom: 20px;
 }
 .navbar {
   list-style: none;
@@ -25,9 +26,22 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
 }
 
-.content {
+.container {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -37,22 +51,106 @@ body {
   height: 92.5vh;
   padding-top: 80px;
   padding-bottom: -80px;
+  .img {
+    display: inline-block;
+  }
+  .img#avatar {
+    width: 300px;
+    height: 400px;
+  }
+  .img#avshadow {
+    width: 300px;
+    height: 400px;
+    top: 20px;
+    left: 10px;
+    background-color: green;
+  }
+  .img#txt {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+  }
+  .img#txtshadow {
+    width: 300px;
+    height: 400px;
+    background-color: green;
+  }
 }
+
 #pg2 {
   border: 2px solid white;
   height: 92.5vh;
   padding-top: 80px;
   padding-bottom: -80px;
 }
+.box {
+  width: 300px;
+  height: 400px;
+  #box1 {
+  }
+  #box1shadow {
+  }
+  #box2 {
+  }
+  #box2shadow {
+  }
+  #box3 {
+  }
+  #box3shadow {
+  }
+}
+
 #pg3 {
   border: 2px solid white;
   height: 92.5vh;
   padding-top: 80px;
   padding-bottom: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .img#mchpch {
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
+  .img#desert {
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
 }
+
 #pg4 {
   border: 2px solid white;
   height: 92.5vh;
   padding-top: 80px;
   padding-bottom: -80px;
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+.contactform {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  #name,
+  #email,
+  #business,
+  #description {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+  #description {
+    height: 300px;
+  }
+  input#submitbtn {
+    background-color: white;
+    color: black;
+  }
+}
+
+.img {
 }
