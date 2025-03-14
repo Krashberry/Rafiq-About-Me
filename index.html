@@ -7,8 +7,8 @@
     <title>rafiqshelton.dev</title>
   </head>
   <body>
-    <nav>
-      <ul>
+    <nav id="nav">
+      <ul class="navbar">
         <li><a href="#pg1">ABOUT ME</a></li>
         <li><a href="#pg2">SKILLS</a></li>
         <li><a href="#pg3">INTERESTS</a></li>
@@ -16,27 +16,35 @@
       </ul>
     </nav>
     <div class="content">
-      <div id="pg1">About Me Page</div>
-      <img src="assets/" alt="" class="img" />
-      <h2>Page content goes here.</h2>
-      <div id="pg2">Skills Page</div>
-      <h2>Page content goes here.</h2>
-      <div id="pg3">Interests Page</div>
-      <h2>Page content goes here.</h2>
-      <div id="pg4">Contact Me Page</div>
-      <h2>Contact Me</h2>
-      <div class="contactform">
-        <form action="" method="get" class="contact">
-          <label for="name">NAME:</label>
-          <input type="text" name="name" id="name" required /><br />
-          <label for="email">EMAIL:</label>
-          <input type="email" name="email" id="email" required /><br />
-          <label for="business">COMPANY (OPTIONAL):</label>
-          <input type="text" name="business" id="business" /><br />
-          <label for="description">DESCRIPTION:</label>
-          <input type="text" name="description" id="description" /><br />
-          <input type="submit" value="Submit" id="submitbtn" required />
-        </form>
+      <div id="pg1">
+        About Me Page
+        <img src="assets/" alt="" class="img" />
+        <h2>Page content goes here.</h2>
+      </div>
+      <div id="pg2">
+        Skills Page
+        <h2>Page content goes here.</h2>
+      </div>
+      <div id="pg3">
+        Interests Page
+        <h2>Page content goes here.</h2>
+      </div>
+      <div id="pg4">
+        Contact Me Page
+        <h2>Contact Me</h2>
+        <div class="contactform">
+          <form action="" method="get" class="contact">
+            <label for="name">NAME:</label>
+            <input type="text" name="name" id="name" required /><br />
+            <label for="email">EMAIL:</label>
+            <input type="email" name="email" id="email" required /><br />
+            <label for="business">COMPANY (OPTIONAL):</label>
+            <input type="text" name="business" id="business" /><br />
+            <label for="description">DESCRIPTION:</label>
+            <input type="text" name="description" id="description" /><br />
+            <input type="submit" value="Submit" id="submitbtn" required />
+          </form>
+        </div>
       </div>
     </div>
   </body>

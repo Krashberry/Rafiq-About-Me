@@ -1,17 +1,58 @@
 html,
 body {
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
 }
 
-nav {
+#nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+  background: black;
+  color: white;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 #pg1 {
+  border: 2px solid white;
+  height: 92.5vh;
+  padding-top: 80px;
+  padding-bottom: -80px;
 }
 #pg2 {
+  border: 2px solid white;
+  height: 92.5vh;
+  padding-top: 80px;
+  padding-bottom: -80px;
 }
 #pg3 {
+  border: 2px solid white;
+  height: 92.5vh;
+  padding-top: 80px;
+  padding-bottom: -80px;
 }
 #pg4 {
+  border: 2px solid white;
+  height: 92.5vh;
+  padding-top: 80px;
+  padding-bottom: -80px;
 }
